@@ -2,7 +2,7 @@ let userIsPrimeSubscribed = true;
 let userIsLionsGateSubscribed = false;
 let userIsSonySubscribed= true;
 
-if(userIsPrimeSubscribed){
+if(userIsPrimeSubscribed){dddd
     console.log("User can watch only Prime content");
 
     if(userIsLionsGateSubscribed){
