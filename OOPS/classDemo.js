@@ -22,7 +22,7 @@ class product{
     }
 
     displayProductDetails(){
-        console.log("Displaying product details");
+        console.log("Displaying product details \n", this);
     }
 
     buyProduct(){
@@ -33,3 +33,4 @@ class product{
 let product1 = new product("Laptop", 1000, "Electronics", "High performance laptop", 4.5);
 
 console.log(product1);
+product1.displayProductDetails();
