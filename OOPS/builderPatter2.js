@@ -17,7 +17,7 @@ class product{
     }
 
     displayProduct() {
-        console.log(this);
+        
         console.log("Name:", this.#name, "Price:", this.#price, "Description:", this.#description);
     }
 
@@ -48,11 +48,11 @@ class product{
                 return new product(this);
             }
         }   
-        return Builder;
+        return new Builder(this);
     }
 }
 
-const p = new product.Builder()
+const p = product.Builder
     .setName("iPhone 14")
     .setPrice(999)
     .setDescription("Latest iPhone model")
